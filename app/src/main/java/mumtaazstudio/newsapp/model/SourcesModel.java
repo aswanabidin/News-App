@@ -1,6 +1,6 @@
 package mumtaazstudio.newsapp.model;
 
-public class NewsModel {
+public class SourcesModel {
 
     private String id;
     private String name;
@@ -10,10 +10,10 @@ public class NewsModel {
     private String country;
     private String url;
 
-    public NewsModel() {
+    public SourcesModel() {
     }
 
-    public NewsModel(String id, String name, String description, String category, String language, String country, String url) {
+    public SourcesModel(String id, String name, String description, String category, String language, String country, String url) {
         this.id = id;
         this.name = name;
         this.description = description;
